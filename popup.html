@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Settings</h1>
+    <div>
+        <label >Gomoon Use Gpt4 Model</label>
+        <a href="http://gomoon.pro" target="_blank" class="website-link">Open our website get Activation Key</a>
+    </div>
+    <form id="settingsForm">
+        <div>
+            <label for="activationKey">Activation Key (Free Key `gomoon`):</label>
+            <input type="password" id="activationKey" required>
+        </div>
+        <div>
+            <label for="gptRole">GPT Role:</label>
+            <select id="gptRole" required>
+                <!-- Additional options can be added here -->
+            </select>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
